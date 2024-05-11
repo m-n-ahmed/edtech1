@@ -1,0 +1,20 @@
+[
+    {
+        "Q-n": "1",
+        "Q": "What is most common color of cats?",
+        "opt-a": "Black",
+        "opt-b": "Red",
+        "opt-c": "White",
+        "opt-d": "Brown",
+        "A": "opt-c"
+    },
+    {
+        "Q-n": "2",
+        "Q": "What is most common color of Parrots?",
+        "opt-a": "Green",
+        "opt-b": "Red",
+        "opt-c": "White",
+        "opt-d": "Grey",
+        "A": "opt-b"
+    }
+]

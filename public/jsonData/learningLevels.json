@@ -1,0 +1,23 @@
+[
+    {
+      "level": 1,
+      "text": "/textData/petAnimals_1.txt",
+      "task": "/jsonData/petAnimals_mcq_1.json"
+    },
+    {
+      "level": 2,
+      "text": "/textData/petAnimals_2.txt",
+      "task": "/jsonData/petAnimals_mcq_2.json"
+    },
+    {
+        "level": 3,
+        "text": "/textData/petAnimals_3.txt",
+        "task": "/jsonData/petAnimals_mcq_3.json"
+    },
+    {
+      "level": 4,
+      "text": "/textData/python_1.txt",
+      "task": "/jsonData/python_mcq_1.json"
+    }
+]
+  

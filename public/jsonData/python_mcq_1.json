@@ -1,0 +1,184 @@
+[
+    {
+        "Q-n": "1",
+        "Q": "Which loop is best used when the number of iterations is not known beforehand?",
+        "opt-a": "For loop",
+        "opt-b": "While loop",
+        "opt-c": "Do-While loop",
+        "opt-d": "None of the above",
+        "A": "opt-b"
+    },
+    {
+        "Q-n": "2",
+        "Q": "How do you print numbers 1 through 5 in Python using a for loop?",
+        "opt-a": "for i in range(1, 6): print(i)",
+        "opt-b": "for i in range(5): print(i)",
+        "opt-c": "for i in range(6): print(i)",
+        "opt-d": "for i in range(1, 5): print(i)",
+        "A": "opt-a"
+    },
+    {
+        "Q-n": "3",
+        "Q": "What is the output of the following code?\\nif 'apple' > 'banana':\\n    print('Grapes')\\nelse:\\n    print('Oranges')",
+        "opt-a": "Grapes",
+        "opt-b": "Oranges",
+        "opt-c": "Apple",
+        "opt-d": "Banana",
+        "A": "opt-b"
+    },
+    {
+        "Q-n": "4",
+        "Q": "Which of the following inputs will stop the loop?\\nwhile input('Enter a fruit: ') != 'exit':\\n    print('Nice fruit!')",
+        "opt-a": "'Exit'",
+        "opt-b": "'EXIT'",
+        "opt-c": "'exit'",
+        "opt-d": "All of the above",
+        "A": "opt-c"
+    },
+    {
+        "Q-n": "5",
+        "Q": "What does the 'range(2, 10, 2)' function return?",
+        "opt-a": "2, 4, 6, 8",
+        "opt-b": "2, 4, 6, 8, 10",
+        "opt-c": "2, 3, 4, 5, 6, 7, 8, 9",
+        "opt-d": "3, 5, 7, 9",
+        "A": "opt-a"
+    },
+    {
+        "Q-n": "6",
+        "Q": "Which statement is true about the for loop in Python?",
+        "opt-a": "It iterates over a list of numbers",
+        "opt-b": "It can only iterate over sequences",
+        "opt-c": "It is used to repeat a block of code a limited number of times",
+        "opt-d": "Both A and C",
+        "A": "opt-d"
+    },
+    {
+        "Q-n": "7",
+        "Q": "How is indentation used in Python?",
+        "opt-a": "To indicate a block of code",
+        "opt-b": "To make the code look neat",
+        "opt-c": "To improve performance",
+        "opt-d": "To comment out code",
+        "A": "opt-a"
+    },
+    {
+        "Q-n": "8",
+        "Q": "Which of the following is the correct way to take input from the user and print it?",
+        "opt-a": "print(input('Enter something: '))",
+        "opt-b": "input = print('Enter something: ')",
+        "opt-c": "print('Enter something: ') + input()",
+        "opt-d": "input(print('Enter something: '))",
+        "A": "opt-a"
+    },
+    {
+        "Q-n": "9",
+        "Q": "In a while loop, how do you ensure the loop stops?",
+        "opt-a": "By setting a condition that eventually becomes false",
+        "opt-b": "By using the break statement",
+        "opt-c": "By decrementing the loop variable",
+        "opt-d": "All of the above",
+        "A": "opt-d"
+    },
+    {
+        "Q-n": "10",
+        "Q": "What will be the output of the following code snippet?\\nfor i in 'hello':\\n    if i == 'e':\\n        break\\n    print(i)",
+        "opt-a": "h",
+        "opt-b": "he",
+        "opt-c": "hello",
+        "opt-d": "hlo",
+        "A": "opt-d"
+    },
+
+            {
+                "Q-n": "11",
+                "Q": "What will be the output of the following code snippet?\\nfor i in 'hello':\\n    if i == 'e':\\n        continue\\n    print(i)",
+                "opt-a": "hlo",
+                "opt-b": "heo",
+                "opt-c": "hello",
+                "opt-d": "hlo",
+                "A": "opt-d"
+            },
+            {
+                "Q-n": "12",
+                "Q": "How do you correctly initialize a counter to 0 and increment it by 1 in a while loop?",
+                "opt-a": "counter = 0\\nwhile counter < 10:\\n    counter += 1",
+                "opt-b": "counter = 1\\nwhile counter <= 10:\\n    counter += 1",
+                "opt-c": "counter = 0\\nwhile counter <= 10:\\n    counter += 1",
+                "opt-d": "counter = 0\\nwhile counter < 10:\\n    print(counter)\\ncounter += 1",
+                "A": "opt-a"
+            },
+            {
+                "Q-n": "13",
+                "Q": "Which function allows you to print each item from a list on separate lines?",
+                "opt-a": "print(list)",
+                "opt-b": "for item in list: print(item)",
+                "opt-c": "print(*list)",
+                "opt-d": "print(list, sep='\\n')",
+                "A": "opt-b"
+            },
+            {
+                "Q-n": "14",
+                "Q": "What is the correct way to print the numbers 1 through 10 in Python using a while loop?",
+                "opt-a": "counter = 1\\nwhile counter <= 10:\\n    print(counter)\\n    counter += 1",
+                "opt-b": "counter = 0\\nwhile counter < 10:\\n    print(counter)\\n    counter += 1",
+                "opt-c": "counter = 1\\nwhile counter < 10:\\n    print(counter)\\n    counter += 1",
+                "opt-d": "counter = 1\\nwhile counter <= 10:\\n    counter += 1\\n    print(counter)",
+                "A": "opt-a"
+            },
+            {
+                "Q-n": "15",
+                "Q": "What is the purpose of the 'break' statement in Python?",
+                "opt-a": "To exit the current loop",
+                "opt-b": "To skip the current iteration of the loop",
+                "opt-c": "To terminate the program",
+                "opt-d": "To pause the execution of the loop",
+                "A": "opt-a"
+            },
+            {
+                "Q-n": "16",
+                "Q": "Which option shows the correct way to read a number from the user and double it?",
+                "opt-a": "num = double(input('Enter a number: '))",
+                "opt-b": "num = input('Enter a number: ') * 2",
+                "opt-c": "num = int(input('Enter a number: ')) * 2",
+                "opt-d": "num = input('Enter a number: ')\\nnum = num * 2",
+                "A": "opt-c"
+            },
+            {
+                "Q-n": "17",
+                "Q": "Which of the following code snippets will correctly calculate and print the sum of numbers 1 to 5?",
+                "opt-a": "sum = 0\\nfor i in range(6):\\n    sum += i\\nprint(sum)",
+                "opt-b": "sum = 0\\nfor i in range(1, 5):\\n    sum += i\\nprint(sum)",
+                "opt-c": "sum = 1\\nfor i in range(1, 5):\\n    sum += i\\nprint(sum)",
+                "opt-d": "sum = 0\\nfor i in range(1, 6):\\n    sum += i\\nprint(sum)",
+                "A": "opt-d"
+            },
+            {
+                "Q-n": "18",
+                "Q": "In Python, how do you ensure that a block of code is executed at least once, even if the condition in the while loop is initially false?",
+                "opt-a": "Use a do-while loop",
+                "opt-b": "Execute the block once before the while loop",
+                "opt-c": "Use a for loop instead",
+                "opt-d": "This cannot be achieved in Python",
+                "A": "opt-b"
+            },
+                    {
+                        "Q-n": "19",
+                        "Q": "Which option will correctly output the even numbers between 1 and 10 inclusive?",
+                        "opt-a": "for i in range(2, 11, 2): print(i)",
+                        "opt-b": "for i in range(1, 11):\\n    if i % 2 == 0: print(i)",
+                        "opt-c": "i = 2\\nwhile i <= 10:\\n    print(i)\\n    i += 2",
+                        "opt-d": "All of the above",
+                        "A": "opt-d"
+                    },
+                    {
+                        "Q-n": "20",
+                        "Q": "Which statement is correct regarding the indentation in Python?",
+                        "opt-a": "Indentation is optional but recommended for readability.",
+                        "opt-b": "Indentation is required for blocks of code after control statements.",
+                        "opt-c": "Python uses braces {} to indicate blocks of code.",
+                        "opt-d": "Indentation can be mixed with tabs and spaces in the same block of code.",
+                        "A": "opt-b"
+                    }
+                ]
+                        

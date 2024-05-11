@@ -1,0 +1,75 @@
+[
+    {
+      "Q-n": "1",
+      "Q": "Which pet is known for its elegant demeanor and silent support?",
+      "opt-a": "Parrot",
+      "opt-b": "Dog",
+      "opt-c": "Cat",
+      "opt-d": "Rabbit",
+      "A": "opt-c"
+    },
+    {
+      "Q-n": "2",
+      "Q": "Which color is NOT commonly associated with cats?",
+      "opt-a": "Black",
+      "opt-b": "Orange",
+      "opt-c": "Red",
+      "opt-d": "Tabby",
+      "A": "opt-c"
+    },
+    {
+      "Q-n": "3",
+      "Q": "Parrots are particularly known for their:",
+      "opt-a": "Running speed",
+      "opt-b": "Swimming ability",
+      "opt-c": "Ability to mimic human speech",
+      "opt-d": "Jumping height",
+      "A": "opt-c"
+    },
+    {
+      "Q-n": "4",
+      "Q": "What trait makes parrots demanding pets?",
+      "opt-a": "Their independence",
+      "opt-b": "Their need for social interaction",
+      "opt-c": "Their quiet nature",
+      "opt-d": "Their small size",
+      "A": "opt-b"
+    },
+    {
+      "Q-n": "5",
+      "Q": "Which is a primary reason cats are considered low-maintenance pets?",
+      "opt-a": "They require frequent walks",
+      "opt-b": "They need minimal supervision",
+      "opt-c": "They eat a lot",
+      "opt-d": "They love water",
+      "A": "opt-b"
+    },
+    {
+      "Q-n": "6",
+      "Q": "What common color do parrots NOT typically have?",
+      "opt-a": "Green",
+      "opt-b": "Red",
+      "opt-c": "Blue",
+      "opt-d": "Purple",
+      "A": "opt-d"
+    },
+    {
+      "Q-n": "7",
+      "Q": "Which pet would be most suitable for someone who enjoys interactive companionship?",
+      "opt-a": "Fish",
+      "opt-b": "Cat",
+      "opt-c": "Parrot",
+      "opt-d": "Lizard",
+      "A": "opt-c"
+    },
+    {
+      "Q-n": "8",
+      "Q": "Cats provide companionship that is:",
+      "opt-a": "Noisy and demanding",
+      "opt-b": "Silent and independent",
+      "opt-c": "Interactive and energetic",
+      "opt-d": "Distant and aloof",
+      "A": "opt-b"
+    }
+  ]
+  

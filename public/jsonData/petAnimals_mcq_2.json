@@ -1,0 +1,47 @@
+[
+    {
+        "Q-n": "1",
+        "Q": "Which animal is known for its ability to mimic human speech?",
+        "opt-a": "Cat",
+        "opt-b": "Parrot",
+        "opt-c": "Dog",
+        "opt-d": "Rabbit",
+        "A": "opt-b"
+    },
+    {
+        "Q-n": "2",
+        "Q": "What color are cats NOT commonly found in?",
+        "opt-a": "Black",
+        "opt-b": "Orange",
+        "opt-c": "Purple",
+        "opt-d": "Gray",
+        "A": "opt-c"
+    },
+    {
+        "Q-n": "3",
+        "Q": "Which pet is known for its independence?",
+        "opt-a": "Parrot",
+        "opt-b": "Cat",
+        "opt-c": "Dog",
+        "opt-d": "Goldfish",
+        "A": "opt-b"
+    },
+    {
+        "Q-n": "4",
+        "Q": "What is the most common color of parrots?",
+        "opt-a": "Blue",
+        "opt-b": "Green",
+        "opt-c": "Pink",
+        "opt-d": "Yellow",
+        "A": "opt-b"
+    },
+    {
+        "Q-n": "5",
+        "Q": "Which of the following pets forms strong bonds with their owners?",
+        "opt-a": "Cats",
+        "opt-b": "Rabbits",
+        "opt-c": "Parrots",
+        "opt-d": "Fish",
+        "A": "opt-c"
+    }
+]

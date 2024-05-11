@@ -1,0 +1,14 @@
+[
+    {
+    "login_userid": 1,
+    "roles": [2,3, 4]
+    },
+    {
+    "login_userid": 2,
+    "roles": [1]
+    },
+    {
+    "login_userid": 3,
+    "roles": [4]
+    }
+]

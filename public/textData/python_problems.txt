@@ -1,0 +1,114 @@
+Problem Statements
+Countdown Timer: Write a program using a while loop that asks the user for a number and then counts down to zero from that number, printing each number to the screen.
+
+Multiplication Table Printer: Use a for loop to print the multiplication table of a given number up to 10. The program should ask the user to enter a number.
+
+Odd or Even: Write a program that asks the user for a number and uses an if-else condition to print whether the number is odd or even.
+
+Simple Interest Calculator: Create a program that calculates simple interest given the principal amount, rate of interest, and time. Use input to get the values from the user and then perform the calculation.
+
+Password Validator: Write a program that asks the user to create a password and then enter it again to confirm. Use string matching to check if the passwords match and print an appropriate message.
+
+Sum of Natural Numbers: Use a for loop to find the sum of the first 'n' natural numbers. 'n' should be entered by the user.
+
+Factorial Calculator: Write a program using a while loop to calculate the factorial of a given number. The number should be input by the user.
+
+Temperature Converter: Create a program that converts temperatures from Fahrenheit to Celsius. The program should ask the user to enter a temperature in Fahrenheit and print the converted temperature.
+
+Grade Calculator: Ask the user for their marks in 5 subjects, calculate the average, and print the grade based on the average using if-else conditions. (A: 90-100, B: 80-89, C: 70-79, D: 60-69, E: Below 60)
+
+Positive Number Counter: Write a program using a while loop that asks the user to enter numbers until they enter a negative number. At the end, print the count of positive numbers entered.
+
+Solution Programs
+Now, let's proceed with the solutions for each problem statement.
+
+Here are the solutions for the problem statements provided:
+
+Countdown Timer
+python
+Copy code
+n = int(input("Enter a number to countdown from: "))
+while n >= 0:
+    print(n)
+    n -= 1
+Multiplication Table Printer
+python
+Copy code
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num*i}")
+Odd or Even
+python
+Copy code
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print(f"{number} is Even")
+else:
+    print(f"{number} is Odd")
+Simple Interest Calculator
+python
+Copy code
+P = float(input("Enter the principal amount: "))
+R = float(input("Enter the rate of interest: "))
+T = float(input("Enter the time in years: "))
+SI = (P * R * T) / 100
+print(f"Simple Interest: {SI}")
+Password Validator
+python
+Copy code
+password = input("Create your password: ")
+confirm_password = input("Enter your password again: ")
+if password == confirm_password:
+    print("Password match.")
+else:
+    print("Passwords do not match.")
+Sum of Natural Numbers
+python
+Copy code
+n = int(input("Enter a number: "))
+sum = 0
+for i in range(1, n+1):
+    sum += i
+print(f"The sum of the first {n} natural numbers is {sum}")
+Factorial Calculator
+python
+Copy code
+n = int(input("Enter a number: "))
+factorial = 1
+while n > 0:
+    factorial *= n
+    n -= 1
+print(f"The factorial is {factorial}")
+Temperature Converter
+python
+Copy code
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+print(f"Temperature in Celsius is {celsius}")
+Grade Calculator
+python
+Copy code
+marks = []
+for i in range(1, 6):
+    marks.append(float(input(f"Enter marks for subject {i}: ")))
+average = sum(marks) / len(marks)
+if average >= 90:
+    grade = 'A'
+elif average >= 80:
+    grade = 'B'
+elif average >= 70:
+    grade = 'C'
+elif average >= 60:
+    grade = 'D'
+else:
+    grade = 'E'
+print(f"Your grade is {grade}")
+Positive Number Counter
+python
+Copy code
+count = 0
+number = float(input("Enter a number (negative to stop): "))
+while number >= 0:
+    count += 1
+    number = float(input("Enter another number (negative to stop): "))
+print(f"Positive numbers entered: {count}")
